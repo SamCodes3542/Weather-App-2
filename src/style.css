@@ -1,0 +1,202 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: sans-serif;
+  background-image: url("https://media1.giphy.com/media/l3vRnoppYtfEbemBO/giphy.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+h1,
+h2,
+p {
+  font-family: "Press Start 2P", cursive;
+  color: white;
+  margin: 0 auto;
+}
+h1 {
+  font-size: 60px;
+  font-weight: bold;
+  position: fixed;
+  left: 130px;
+  top: 45px;
+  display: block;
+  background-image: linear-gradient(to top, purple, rgb(104, 231, 199));
+  -webkit-background-clip: text;
+  color: transparent;
+}
+h2 {
+  position: fixed;
+  top: 170px;
+  left: 690px;
+  font-size: 50px;
+  font-style: bold;
+  display: block;
+  background-image: linear-gradient(to top, purple, rgb(104, 231, 199));
+  -webkit-background-clip: text;
+  color: transparent;
+}
+p {
+  position: fixed;
+  top: 370px;
+  right: 180px;
+  text-align: center;
+  font-style: bold;
+  font-size: 30px;
+  padding: 100px;
+  display: block;
+  background-image: linear-gradient(to top, purple, rgb(104, 231, 199));
+  -webkit-background-clip: text;
+  color: transparent;
+  transform: translate(-50%, -50%);
+  text-transform: uppercase;
+  transition-duration: 3s;
+}
+p:hover {
+  letter-spacing: 10px;
+  cursor: pointer;
+}
+footer,
+.current,
+.current-info {
+  color: rgb(104, 231, 199);
+  font-family: "Fjalla One", sans-serif;
+  display: block;
+  margin: 0 auto;
+}
+footer {
+  position: fixed;
+  left: 150px;
+  bottom: 85px;
+  font-size: 14px;
+}
+#current-location-button {
+  position: fixed;
+  right: 155px;
+  top: 200px;
+  color: rgb(104, 231, 199);
+}
+
+#icon {
+  position: fixed;
+  top: 140px;
+  font-weight: bold;
+  left: 470px;
+  font-size: 250px;
+  display: block;
+  margin: 0 auto;
+}
+.current {
+  top: 230px;
+  left: 650px;
+}
+.current-info {
+  left: 90px;
+  top: 115px;
+}
+.current,
+.current-info {
+  font-family: "Orbitron", sans-serif;
+  list-style: none;
+  font-size: 20px;
+  position: fixed;
+}
+.current-info .units-feels-like {
+  position: relative;
+  font-size: 14px;
+  font-family: "Bungee Shade", cursive;
+  top: -5px;
+  color: rgb(19, 191, 197);
+}
+.current-info .units-feels-like .now {
+  color: rgb(19, 191, 197);
+  cursor: default;
+  text-decoration: none;
+}
+.current-info .units-feels-like .now:hover {
+  text-decoration: none;
+}
+.temperature .units {
+  position: relative;
+  font-size: 24px;
+  font-family: "Bungee Shade", cursive;
+  top: -40px;
+  left: -55px;
+}
+.temperature .active {
+  color: rgb(19, 191, 197);
+  cursor: default;
+  text-decoration: none;
+  color: rgb(19, 191, 197);
+}
+.temperature .active:hover {
+  text-decoration: none;
+  color: rgb(19, 191, 197);
+}
+.fg--search {
+  position: relative;
+
+  width: 420px;
+  left: 900px;
+  top: 190px;
+}
+.fg--search input {
+  background: rgb(224, 103, 224);
+  opacity: 0.7;
+  width: 100%;
+  padding: 20px 20px 20px 20px;
+  display: block;
+  border: 1px line rgb(104, 231, 199);
+  border-radius: 20px;
+}
+
+.fg--search button {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 40px;
+  position: absolute;
+  top: -10px;
+  right: -15px;
+  padding: 18px 20px;
+  z-index: 15;
+}
+
+.game-controller {
+  color: rgb(19, 191, 197);
+}
+.card {
+  font-size: 25px;
+  text-align: center;
+  width: 200px;
+  background: rgb(104, 231, 199, 0.7);
+  color: #2d4059;
+  margin: 0px 10px;
+  padding: 20px;
+  border: solid 1.5px #240747;
+}
+.row {
+  margin: 120px;
+  color: white;
+  font: 65px;
+  font-weight: bold;
+  font-family: "Orbitron", sans-serif;
+}
+.name,
+.gitLink {
+  font-family: "Orbitron", sans-serif;
+  text-decoration: none;
+  color: rgb(252, 245, 252);
+}
+.name:hover,
+.gitLink:hover {
+  color: rgb(104, 231, 199);
+  text-decoration: underline;
+}
+.container {
+  border: 20px;
+  border-radius: 20px;
+  margin: 0px;
+  display: block;
+}
